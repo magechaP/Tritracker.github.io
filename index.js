@@ -15,6 +15,8 @@ function track() {
     function check(num1 , num2){
       return num1 + num2;
     }
-    
+    var possibility1 = check(ans1 + ans2);
+    var possibility2 = check(ans2 + ans3);
+    var possibility3 = check(ans1 + ans3);
   }
 }
