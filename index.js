@@ -1,9 +1,9 @@
-var firstValue =document.getElementById("FirstValue");
-var secondValue =document.getElementById("SecondValue");
-var thirdValue =document.getElementById("ThirdValue");
 
 function track() {
-  if (firstValue === "" || secondValue === "" || thirdValue === "")
+  var firstValue =document.getElementById("FirstValue");
+  var secondValue =document.getElementById("SecondValue");
+  var thirdValue =document.getElementById("ThirdValue");
+  if (firstValue.value === "" || secondValue.value === "" || thirdValue.value === "")
   {
     alert("please input values!");
   }
