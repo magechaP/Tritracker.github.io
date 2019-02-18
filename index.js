@@ -28,18 +28,17 @@ function track() {
             alert("Not a Triangle!");
     }
     else{
-      if (ans1 === ans2 && ans2 === ans3 && ans1 === ans3)
-            alert("Your triangle is an Equilateral triangle!")
+      if (ans1 === ans2 && ans2 === ans3 && ans1 === ans3){
+        alert("Your triangle is an Equilateral triangle!")
+      }
+      else if (ans1 === ans2 || ans2 === ans3 || ans3 === ans1) {
+            alert("Your triangle is an Isosceles tirangle!")
+      }
+      else {
+        alert("Your triangle is a Scalene")
+      }
     }
-    else if (ans1 === ans2 || ans2 === ans3 || ans3 === ans1) {
-            alert("Your triangle is an Isosceles tirangle!")  
-}
-
-
-
-
-}
-
-  }
+    }
+    }
 
 }
