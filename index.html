@@ -2,16 +2,17 @@
 <html>
   <head>
     <link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
     <title>Triangle Tracker</title>
   </head>
   <body>
     <h1 class="tri">TRIANGLE TRACKER</h1>
-     <div onclick="track()" class="form">
+     <div class="form">
      <form action="index.js">
-              First Value: <input type="number">
-              Second Value: <input type="number">
-              Third Value: <input type="number">
-          <input type="submit" value="Submit">
+              First Value: <input id="FirstValue" type="number">
+              Second Value: <input id="SecondValue" type="number">
+              Third Value: <input id="ThirdValue" type="number">
+          <input  onclick="track()" type="button" value="Submit">
        </form>
    </div>
   <script src="index.js"></script>

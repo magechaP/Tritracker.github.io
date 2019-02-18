@@ -1,5 +1,5 @@
 
-function track() {
+var track = function (){
   var firstValue =document.getElementById("FirstValue");
   var secondValue =document.getElementById("SecondValue");
   var thirdValue =document.getElementById("ThirdValue");
@@ -35,10 +35,8 @@ function track() {
             alert("Your triangle is an Isosceles tirangle!")
       }
       else {
-        alert("Your triangle is a Scalene")
+        alert("Your triangle is a Scalene!")
       }
     }
   }
-
-
 }
