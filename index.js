@@ -9,9 +9,9 @@ function track() {
   }
   else
   {
-    var ans1=ParseInt(firstValue.value);
-    var ans2=ParseInt(secondValue.value);
-    var ans3=ParseInt(thirdValue.value);
+    var ans1=parseInt(firstValue.value);
+    var ans2=parseInt(secondValue.value);
+    var ans3=parseInt(thirdValue.value);
     function check(num1 , num2){
       return num1 + num2;
     }
@@ -38,7 +38,7 @@ function track() {
         alert("Your triangle is a Scalene")
       }
     }
-    }
-    }
+  }
+
 
 }
