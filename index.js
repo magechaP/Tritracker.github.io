@@ -5,7 +5,7 @@ var thirdValue =document.getElementById("ThirdValue");
 function track() {
   if (firstValue === "" || secondValue === "" || thirdValue === "")
   {
-    alert("please input values!")
+    alert("please input values!");
   }
   else
   {
@@ -15,8 +15,25 @@ function track() {
     function check(num1 , num2){
       return num1 + num2;
     }
-    var possibility1 = check(ans1 + ans2);
-    var possibility2 = check(ans2 + ans3);
-    var possibility3 = check(ans1 + ans3);
+    var possibility1 = check(ans1 , ans2);
+    var possibility2 = check(ans2 , ans3);
+    var possibility3 = check(ans1 , ans3);
+if(possibility1 === ans3 || possibility1 < ans3);{
+ alert("Not a Triangle!");
+}
+else if (possibility2 === ans1 || possibility2 < ans1);{
+ alert("Not a Triangle");
+}
+else if (possibility3 === ans2 || possibility3 < ans2);{
+ alert("Not a Triangle");
+}
+
+
+
+
+
+}
+
   }
+
 }
